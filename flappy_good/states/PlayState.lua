@@ -47,6 +47,11 @@ function PlayState:update(dt)
         self.timer = 0
     end
 
+        -- enter pause state
+    if love.keyboard.wasPressed('p') then
+        gStateMachine:change('pause')
+    end
+
     -- for every pair of pipes..
     for k, pair in pairs(self.pipePairs) do
         -- score a point if the pipe has gone past the bird to the left all the way

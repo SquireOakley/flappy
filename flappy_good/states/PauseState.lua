@@ -10,8 +10,8 @@ end
 function PauseState:render()
     -- simple UI code
     love.graphics.setFont(flappyFont)
-    love.graphics.printf('Wee Wee time!", 0, 64, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Wee Wee time!', 0, 64, VIRTUAL_WIDTH, 'center')
 
     love.graphics.setFont(mediumFont)
-    love.graphics.printf('Press P to continue!'', 0, 100, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Press P to continue!', 0, 100, VIRTUAL_WIDTH, 'center')
 end
