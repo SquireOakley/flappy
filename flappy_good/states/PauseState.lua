@@ -3,6 +3,7 @@ PauseState = Class{__includes = BaseState}
 function PauseState:update(dt)
     -- transition to countdown when enter/return are pressed
     if love.keyboard.wasPressed('p') then
+        sounds['music']:play()
         gStateMachine:change('countdown')
     end
 end
