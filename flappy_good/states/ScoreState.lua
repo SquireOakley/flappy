@@ -10,6 +10,8 @@
 
 ScoreState = Class{__includes = BaseState}
 
+-- Loading medal images to be awarded based on score when entering scorestate
+
 gold_medal = love.graphics.newImage("gold_medal.png")
 silver_medal = love.graphics.newImage("silver_medal.png")
 bronze_medal = love.graphics.newImage("bronze_medal.png")
