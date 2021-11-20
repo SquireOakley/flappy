@@ -41,14 +41,14 @@ function ScoreState:render()
     love.graphics.printf('Press Enter to Play Again!', 0, 160, VIRTUAL_WIDTH, 'center')
 
     if self.score >= 2 then
-        love.graphics.draw(bronze_medal, 10, 10, 0, 0.13)
+        love.graphics.draw(bronze_medal, VIRTUAL_WIDTH / 2 - 33.475, 180, 0, 0.13)
     end
 
     if self.score >= 4 then
-        love.graphics.draw(silver_medal, 10, 10, 0, 0.13)
+        love.graphics.draw(silver_medal, VIRTUAL_WIDTH / 2 - 33.475, 180, 0, 0.13)
     end
 
     if self.score >= 6 then
-        love.graphics.draw(gold_medal, 10, 10, 0, 0.13)
+        love.graphics.draw(gold_medal, VIRTUAL_WIDTH / 2 - 33.475, 180, 0, 0.13)
     end
 end
