@@ -91,4 +91,6 @@ function love.draw()
     love.graphics.draw(ground, -groundScroll, VIRTUAL_HEIGHT - 16)
     
     push:finish()
+
+    --adding a line that does nothing just to check out my git commit skills
 end
